@@ -1,0 +1,98 @@
+<!--General Setup-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Jayden Yap-Feedback</title>
+    <!--linking general css file and specific css file for this page-->
+    <link href="../css/head_navbar.css" rel="stylesheet"/>
+    <link href="../css/feedback.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <h1 id="main">JAYDEN YAP.COM</h1>
+    </header>
+
+    <!--navbar-->
+    <ul>
+        <li><a href="../html/home.html">Home</a></li>
+        <li><a href="../html/interests_1.html">Interests</a></li>
+        <li><a href="../html/sec_1.html">Secondary School</a></li>
+        <li><a href="../html/poly_future.html">Poly and Future</a></li>
+        <li><a class="active" href="../html/feedback.html">Feedback</a></li>
+    </ul>
+
+    <!--Intro header and paragraph-->
+    <h1>Feedback Form</h1>
+    <p>Your feedback is invaluable to my learning experience in html and css, thank you for your time. :)</p>
+
+    <!--Form-->
+    <form>
+        <!--Personal Details-->
+        <fieldset>
+            <label for="email">E-mail Address</label><br>
+            <input type="email" id="email" value="example@gmail.com" size="35"><br><br>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" value="Jayden"><br><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" value="Yap"><br><br>
+        </fieldset><br>
+
+        <!--Radio Option selecting-->
+        <fieldset id="option">
+
+            <div>How satisfied were you with my website's visuals? (Colours, fonts, layout etc)</div><br>
+                <input type="radio" id="1vsat" name="visuals" value="vsat">
+                <label for="1vsat">Very Satisfied</label>
+                <input type="radio" id="1sat" name="visuals" value="sat">
+                <label for="1sat">Satisfied</label>
+                <input type="radio" id="1unsat" name="visuals" value="unsat">
+                <label for="1unsat">Unsatisfied</label>
+                <input type="radio" id="1vunsat" name="visuals" value="vunsat">
+                <label for="1vunsat">Very Unsatisfied</label><br><br><br><br>
+
+            <div>How satisfied were you with my website's content? (Text, tables, images etc)</div><br>
+                <input type="radio" id="2vsat" name="content" value="vsat">
+                <label for="2vsat">Very Satisfied</label>
+                <input type="radio" id="2sat" name="content" value="sat">
+                <label for="2sat">Satisfied</label>
+                <input type="radio" id="2unsat" name="content" value="unsat">
+                <label for="2unsat">Unsatisfied</label>
+                <input type="radio" id="2vunsat" name="content" value="vunsat">
+                <label for="2vunsat">Very Unsatisfied</label><br><br><br><br>
+            
+            <div>Which elements of the website did you like?</div><br>
+                <input type="checkbox" id="form" name="checkbox" value="form">
+                <label for="form">This Form</label>
+                <input type="checkbox" id="tt" name="checkbox" value="tt">
+                <label for="tt">Study Timetable</label>
+                <input type="checkbox" id="imgs" name="checkbox" value="imgs">
+                <label for="imgs">Images</label>
+                <input type="checkbox" id="colours" name="checkbox" value="colours">
+                <label for="colours">Colours</label><br><br><br><br>
+            
+            <div>How was your experience in the website overall?</div><br>
+                <label for="vol">Very Unsatisfied</label>
+                <input type="range" id="vol" name="vol" min="0" max="10">
+                <label for="vol">Very Satisfied</label><br>
+            
+
+
+
+        </fieldset><br>
+
+        <!--Other feedback textbox-->
+        <fieldset>
+            <label for="other">Other Feedback</label><br>
+            <textarea id="other" name="other" rows="4" cols="65">
+Please enter any other feedback here (example: I like the colour scheme)
+            </textarea>
+            <br><br>
+            <input id="submit" type="submit" value="Submit">
+        </fieldset><br>
+    </form>
+</body>
+</html>

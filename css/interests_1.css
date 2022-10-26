@@ -1,0 +1,68 @@
+/*Header Styling*/
+header#video{
+    text-align: center;
+}
+h1#editing{
+    display:inline-block;
+    text-align: center;
+}
+
+img{
+    padding-top: 5px;
+    width:40px;
+    height:40px;
+}
+/*Video Editing*/
+/*Intro Paragraph Style*/
+p{
+    margin: auto 5% auto 5%;
+}
+
+/*Video caption and Video frame styling*/
+section{
+    text-align: center;
+}
+i{
+    display:block;
+    font-family: 'Roboto';
+    color:#C5C6C7;
+}
+
+iframe{
+    margin:10px 30px 50px 5px;
+    border: 1px solid #C5C6C7;
+}
+
+/*Speedrunning*/
+/*header styling*/
+h1#speed{
+    margin-bottom:0px;
+}
+h2{
+    font-size:1em;
+    margin: 0 30% 50px 30%;
+    text-align: center;
+    color:#C5C6C7;
+    font-family: 'Josefin', Arial, sans-serif;
+
+}
+
+/*Paragraph styling*/
+p a{
+    color:#66FCF1;
+    text-decoration: underline;
+}
+
+/*Website embed style*/
+div{
+    text-align:center;
+}
+iframe#sr{
+    text-align: center;
+}
+
+/*Center the back to top button*/
+form{
+    margin-bottom: 100px;
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+/*Form styling*/
+label{
+    font-size: 1.2em;
+    font-family: 'Josefin' , Arial;
+    color: #66FCF1;
+}
+
+fieldset#option label{
+    color:#C5C6C7;
+    font-family: 'Roboto', sans-serif;
+}
+
+div{
+    font-size: 1.3em;
+    font-family: 'Josefin', Arial, sans-serif;
+    color:#66FCF1;
+}
+
+input, textarea{
+    font-family: 'Roboto' , Arial, sans-serif;
+    font-size: 1.1em;
+    background-color: rgb(15, 14, 14);
+    color: #C5C6C7;
+}
+
+input#submit{
+    width: 120px;
+    height: 40px;
+    font-size:1.5em;
+}

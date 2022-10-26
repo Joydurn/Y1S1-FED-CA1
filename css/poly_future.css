@@ -1,0 +1,53 @@
+/*Headers*/
+h1#SP{
+    margin-bottom: 0;
+}
+
+h2{
+    margin-top: 0;
+    margin-bottom: 80px;
+    text-align: center;
+    font-family: Helvetica, 'Oswald';
+    color: #C5C6C7;
+}
+
+
+/*Image floating style*/
+p.aside{
+    margin-left: 100px;
+    height: 300px;
+    font-size: 1.4em;
+}
+
+img{
+    float:right;
+    margin-left:100px;
+    width:25%;
+    height:240px;
+    margin-right: 50px;
+}
+
+/*Reviews section displayed in 2 columns*/
+div.column {
+    float: left;
+    width: 50%;
+  }
+  
+div.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p.review{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+    margin: 25px;
+    padding:25px;
+    border: 2px solid #66FCF1;
+}
+
+/*Center the back to top button*/
+form{
+    margin-bottom: 100px;
+    text-align: center;
+}

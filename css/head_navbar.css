@@ -1,0 +1,89 @@
+@charset "utf-8";
+/*Fonts setup*/
+@font-face {
+    font-family: Roboto ;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face{
+    font-family: Josefin;
+    src:url('../fonts/JosefinSans-Bold.ttf');
+}
+
+@font-face{
+    font-family: Oswald;
+    src:url('../fonts/Oswald-SemiBold.ttf');
+}
+
+/*Main Page Header Styling*/
+h1#main{
+  text-align: left;
+  padding: 1%;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  color:#00ffee;
+  text-shadow: 2px 2px black;
+  font-size: 3.2em;
+  margin-bottom: 1px;
+  margin-top: 2px;
+}
+
+/*Nav bar styling*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #C5C6C7;
+  font-family: 'Roboto',Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 14px 40px;
+  font-size: 1.05em;
+  text-decoration: none;
+}
+
+li a.active {
+  border-bottom: 2px solid #66FCF1;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/*Dark page background color*/
+body{
+    background-color: #1F2833;
+}
+
+/*General Header and Paragraph styling*/
+
+h1{
+  text-align: center;
+    padding: 1%;
+    color: black;
+    font-family: 'Josefin','Roboto', sans-serif;
+    color:#66FCF1;
+    text-shadow: 2px 2px black;
+    font-size: 3em;
+    margin-bottom: 1px;
+    margin-top: 2px;
+}
+
+p{
+  text-align: center;
+  font-family: 'Roboto',Arial, Helvetica, sans-serif;
+  color:#C5C6C7;
+  font-size: 1.2em;
+}
+
+
+  
